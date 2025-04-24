@@ -1,4 +1,4 @@
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../src/components/ProductCard';
 import Head from 'next/head';
 
 const products = [
