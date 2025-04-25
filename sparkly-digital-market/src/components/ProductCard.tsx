@@ -12,7 +12,18 @@ export default function ProductCard({ title, price, image }: Props) {
       <img src={image} alt={title} style={{ width: '100%', height: 'auto' }} />
       <h3>{title}</h3>
       <p>{price} ريال</p>
-      <button>عرض المنتج</button>
+<button 
+  style={{ 
+    backgroundColor: '#0070f3', 
+    color: 'white', 
+    padding: '0.5rem', 
+    border: 'none', 
+    borderRadius: '5px', 
+    cursor: 'pointer' 
+  }}
+>
+  عرض المنتج
+</button>
     </div>
   );
 }
